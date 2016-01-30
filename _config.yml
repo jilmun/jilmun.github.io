@@ -1,21 +1,24 @@
 # Dependencies
-markdown:         redcarpet
 highlighter:      pygments
+markdown:         kramdown
+kramdown:
+   input:         GFM  # Enable GitHub Flavored Markdown (fenced code blocks)
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+#relative_permalinks: true  # no longer supported on Jekyll 3.x
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            '( . .)φ__'
+tagline:          'Open thoughts on data...'
+description:      'Pitch me a project if you have an idea, I would love to talk to you about it.'
+url:              http://jjwesner.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Janet Wesner'
+  url:            https://twitter.com/lolatu2
+  email:          janet.wesner@outlook.com
 
 paginate:         5
 
@@ -23,4 +26,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/jjwesner

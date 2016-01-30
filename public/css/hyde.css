@@ -98,6 +98,10 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+.sidebar-nav-item-top-border {  /* Custom Code */
+  padding: .5rem 1rem;
+  border-top: 1px solid rgba(255,255,255,.1);
+}
 
 /* Sticky sidebar
  *
