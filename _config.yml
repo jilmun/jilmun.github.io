@@ -1,29 +1,35 @@
 # Dependencies
-highlighter:      pygments
+highlighter:      rouge
 markdown:         kramdown
 kramdown:
    input:         GFM  # Enable GitHub Flavored Markdown (fenced code blocks)
 
 # Permalinks
 permalink:        pretty
-#relative_permalinks: true  # no longer supported on Jekyll 3.x
 
 # Setup
-title:            '( . .)φ__'
-tagline:          'Open thoughts on data...'
-description:      'Pitch me a project if you have an idea, I would love to talk to you about it.'
+title:            "( . .)φ__"
+tagline:          "Open thoughts on data..."
+description:      "Pitch me a project if you have an idea. I'll respond if you're excited."
 url:              http://jjwesner.github.io
 baseurl:          /
+paginate:         5
 
 author:
   name:           'Janet Wesner'
   url:            https://twitter.com/lolatu2
   email:          janet.wesner@outlook.com
 
-paginate:         5
-
+# Assets
+sass:
+  style:            :compressed
+ 
 # Custom vars
 version:          2.1.0
-
 github:
   repo:           https://github.com/jjwesner
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist

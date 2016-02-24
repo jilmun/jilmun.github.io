@@ -59,6 +59,17 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+.sidebar-nav-item {  /* moved from sidebar nav section */
+  display: block;
+  line-height: 1.75;
+}
+.hide-if-small {
+  display: none;
+}
+.inline-if-small {
+  display: inline-block;
+  margin: 0 5px;
+}
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -67,6 +78,13 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
+  }
+  .hide-if-small {
+    display: block;
+  }
+  .inline-if-small {
+    display: block;
+    margin: 0 0px;
   }
 }
 
@@ -86,10 +104,6 @@ html {
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
-}
-.sidebar-nav-item {
-  display: block;
-  line-height: 1.75;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -124,7 +138,7 @@ a.sidebar-nav-item:focus {
  * Align the contents of the site above the proper threshold with some margin-fu
  * with a 25%-wide `.sidebar`.
  */
-
+ 
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;

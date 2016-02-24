@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
+<article class="posts">
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
@@ -12,12 +12,12 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
     {{ post.content }}
   </div>
   {% endfor %}
-</div>
+</article>
 
 <div class="pagination">
   {% if paginator.next_page %}
