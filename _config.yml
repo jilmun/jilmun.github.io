@@ -11,7 +11,7 @@ permalink:        pretty
 title:            "( . .)φ__"
 tagline:          "Open thoughts on data..."
 description:      "Pitch me a project if you have an idea. I'll respond if you're excited."
-url:              http://jjwesner.github.io
+url:              http://yahwes.github.io
 baseurl:          /
 paginate:         5
 
@@ -27,7 +27,7 @@ sass:
 # Custom vars
 version:          2.1.0
 github:
-  repo:           https://github.com/jjwesner
+  repo:           https://github.com/yahwes
 
 # Gems
 gems:
