@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-Hey there! I have been working in the data analytics profession, focused in the insurance industry, for about 9 years now. Over the course of my career, I have worked mainly with R and Excel/VBA and have dabbled in a variety of business intelligence tools.
+Hey there! I have been working in the data analytics profession, focused in the insurance industry ([I'm an actuary](https://www.linkedin.com/in/wjanet)), for about 9 years now. Over the course of my career, I have worked mainly with R and Excel/VBA and have dabbled in a variety of business intelligence tools.
 
 With the recent leaps in technology and data collection, I think a huge opportunity has been created for using new mathematical techniques in data analysis and machine learning. I hope to leverage my intellectual curiosity and analytical skills to add value in this quickly evolving field. 
 
