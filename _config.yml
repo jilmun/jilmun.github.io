@@ -33,3 +33,9 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+# Exclude -- removes blog portion
+exclude:
+  - CNAME
+  - index.html
+  - about.md
