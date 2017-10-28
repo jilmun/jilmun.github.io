@@ -12,7 +12,7 @@ title:            "( . .)φ__"
 tagline:          "Open thoughts on data..."
 description:      "Pitch me a project if you have an idea. I'll respond if you're excited."
 url:              http://yahwes.github.io
-baseurl:          /
+baseurl:          
 paginate:         5
 
 author:
