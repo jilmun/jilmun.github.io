@@ -38,4 +38,3 @@ gems:
 exclude:
   - CNAME
   - index.html
-  - about.md
